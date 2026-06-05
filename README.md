@@ -6,12 +6,12 @@ displays shows one part of the time/date in a large 14-segment ("DSEG") font:
 ```
 ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐
 │  STUNDE  │ │  MINUTE  │ │ SEKUNDEN │ │ Mittwoch │
-│          │ │          │ │          │ │   05     │
+│          │ │          │ │          │ │    05    │
 │    14    │ │    37    │ │    09    │ │ ──────── │
 │          │ │          │ │          │ │   Juni   │
-└──────────┘ └──────────┘ └──────────┘ │   2026   │
-   hours        minutes      seconds    └──────────┘
-                                            date
+│          │ │          │ │          │ │   2026   │
+└──────────┘ └──────────┘ └──────────┘ └──────────┘
+   hours       minutes      seconds        date
 ```
 
 Time is fetched over WiFi via NTP, so the clock is always accurate and handles
