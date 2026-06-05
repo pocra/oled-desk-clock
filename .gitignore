@@ -1,0 +1,38 @@
+# Arduino / PlatformIO build artifacts
+build/
+*.hex
+*.bin
+*.elf
+*.map
+*.o
+*.d
+*.a
+
+# Arduino IDE local files
+*.bak
+.theia/
+sketch.json
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local secrets (if you split credentials into a separate file)
+secrets.h
+arduino_secrets.h
+
+# Claude
+.claude/
+
+# Bundled third-party libraries (install via Arduino Library Manager instead)
+Adafruit-GFX-Library/
